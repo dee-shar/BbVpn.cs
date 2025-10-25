@@ -17,14 +17,14 @@ namespace BbVpnApi
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<string> getServers(string token)
+        public async Task<string> GetServers(string token)
         {
             var response = await httpClient.GetAsync($"{apiUrl}/api.php?token={token}");
             response.EnsureSuccessStatusCode();
             return await response.Content.ReadAsStringAsync();
         }
 
-        public async Task<string> getApiParameters(string token)
+        public async Task<string> GetApiParameters(string token)
         {
             var response = await httpClient.GetAsync($"{apiUrl}/apiParams.php?token={token}&v=v38");
             response.EnsureSuccessStatusCode();
