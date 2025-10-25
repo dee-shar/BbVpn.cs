@@ -5,7 +5,6 @@ Mobile-API for [BBVpn](https://play.google.com/store/apps/details?id=bbv.avdev.b
 ```cs
 using System;
 using BbVpnApi;
-using System.Threading.Tasks;
 
 namespace Application
 {
