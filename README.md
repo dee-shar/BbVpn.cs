@@ -14,7 +14,7 @@ namespace Application
         static async Task Main()
         {
             var api = new BbVpn();
-            string servers = await api.getServers("token");
+            string servers = await api.GetServers("token");
             Console.WriteLine(servers);
         }
     }
