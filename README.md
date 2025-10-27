@@ -3,7 +3,6 @@ Mobile-API for [BBVpn](https://play.google.com/store/apps/details?id=bbv.avdev.b
 
 ## Example
 ```cs
-using System;
 using BbVpnApi;
 
 namespace Application
