@@ -7,6 +7,7 @@ namespace BbVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://bbvpn.avdev.site";
+        
         public BbVpn()
         {
             httpClient = new HttpClient();
